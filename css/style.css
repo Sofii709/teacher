@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+a:hover {
+    color: #439eea;
+    text-decoration: underline;
+    border-radius: 30%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: white;
+}
+
+.header {
+    background-color: #313;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header p {
+    color: #fff;
+    border: solid 2px #fff;
+    padding-right: 100px;
+}
+
+.tel {
+    color: #313;
+}
+
+.skype {
+    color: #313;
+}
+
+.email {
+    text-decoration: underline;
+}
+
+.connection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #333 url(../img/mask.png) center/cover no-repeat;
+    min-width: 300px;
+    min-height: 500px;
+}
+
+.connection a {
+    border: solid 3px #439eea;
+    background-color: #439eea;
+    padding: 5px 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.por {
+    margin-bottom: 20px;
+}
+
+.about {
+    text-align: center;
+    font-weight: 400;
+    width: 817px;
+    height: 226px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.about {
+    padding-top: 50px;
+}
+
+.service img {
+    border: solid 4px #439eea;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.servise {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.bg {
+    background-color: #f2f2f2;
+}
+
+.human {
+    background-color: #439eea;
+}
+
+.servise h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.h {
+    color: #333;
+    padding-top: 20px;
+}
+
+.servise h3 {
+    width: 180px;
+    height: 118px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.servise p {
+    width: 180px;
+    height: 51px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 20px;
+}
+
+.portfolio h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.pictures {
+    width: 100%;
+}
+
+.pictures img {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.button a {
+    color: #333;
+    padding: 5px 20px;
+    background-color: #f2f2f2;
+    border: #333 solid 1px;
+    border-radius: 5px;
+}
+
+.button a:hover {
+    color: #f2f2f2;
+    background-color: #439eea;
+}
+
+.line {
+    margin: 20px;
+}
+
+.votes {
+    background-color: #f2f2f2;
+}
+
+.votes {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.votes h2 {
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.strilka {
+    margin-right: 30px;
+    padding-top: 8px;
+}
+
+.strilkatwo {
+    margin-left: 30px;
+    padding-top: 8px;
+}
+
+.votepic {
+    padding-top: 25px;
+}
+
+.kate {
+    line-height: 18px;
+    color: #000000;
+    font-style: italic;
+}
+
+.text {
+    background-color: #439eea;
+    color:#f2f2f2;
+    text-align: center;
+}
+
+.text h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.pom {
+    padding-top: 20px;
+}
+
+.text a {
+    color: #f2f2f2;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    border: #f2f2f2 solid 2px;
+    border-radius: 5px;
+}
+
+.text a:hover {
+    color: #333;
+    background-color: #f2f2f2;
+    border: #313;
+    text-decoration: none;
+}
+
+.per {
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 50px 5px;
+}
+
+.footer-top h3 {
+    color: #919191;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-right: 200px;
+}
+
+.about p {
+    color: #5a5a5a;
+}
+
+.about a {
+    color: #5a5a5a;
+    transition: all 1s ease;
+}
+
+.about a:hover {
+    color: #439eea;
+}
+
+.em a {
+    color: #439eea;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+
+.em a:hover {
+    text-decoration: none;
+    color: #919191;
+}
+
+.foot {
+    border: solid 2px #439eea;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.tw {
+    background-color: #439eea;
+}
+
+.copy {
+    text-align: center;
+}
+
+.footer-bottom {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
