@@ -44,6 +44,9 @@ ul {
     column-gap: 20px;
     list-style: none;
 }
+.search p {
+    padding: 10px 100px 10px 10px;
+}
 
 .navigation a {
     text-transform: uppercase;
@@ -51,7 +54,7 @@ ul {
 }
 
 .header {
-    background-color: #313;
+    background-color: black;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -66,12 +69,12 @@ ul {
     color: #313;
 }
 
-.skype {
-    color: #313;
+.email {
+    color: #313
 }
 
-.email {
-    text-decoration: underline;
+.skype {
+    color: #313;
 }
 
 .connection {
@@ -91,6 +94,13 @@ ul {
     padding: 5px 50px;
     text-transform: uppercase;
     color: #fff;
+    border-radius: 15px;
+    transition: all 1s ease;
+}
+
+.connection a:hover {
+    background-color: #333;
+    text-decoration: none;
 }
 
 .por {
@@ -137,6 +147,16 @@ ul {
 .h {
     color: #333;
     padding-top: 20px;
+}
+
+.h a {
+    text-decoration: none;
+    color: #333;
+    transition: all 1s ease;
+}
+
+.h a:hover {
+    color: #439eea;
 }
 
 .servise h3 {
@@ -294,20 +314,9 @@ ul {
     color: #439eea;
 }
 
-.em a {
-    color: #439eea;
-    text-decoration: underline;
-    transition: all 1s ease;
-}
-
-.em a:hover {
-    text-decoration: none;
-    color: #919191;
-}
-
 .foot {
     border: solid 2px #439eea;
-    padding: 20px;
+    padding: 10px 15px;
     border-radius: 50%;
 }
 
